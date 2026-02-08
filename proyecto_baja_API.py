@@ -308,3 +308,5 @@ def menu():
 
         else:
             print("Opció no vàlida.")
+
+menu()
