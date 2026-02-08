@@ -71,7 +71,7 @@ def llistar_receptes(receptes):
 
     print("\n--- Llibre de receptes ---")
     for i, r in enumerate(receptes, 1):
-        print(f"{i:2d}. {r['titol']}")
+        print(f"{i:3d}. {r['titol']}")
         print("   Ingredients:", ", ".join(r['ingredients'][:6]) + ("..." if len(r['ingredients']) > 6 else ""))
     print()
 
@@ -227,7 +227,7 @@ def buscar_i_afegir_api(receptes):
 
     print(f"\nTrobades {len(resultats)} receptes:")
     for i, meal in enumerate(resultats, 1):
-        print(f"  {i:2d}  {meal['strMeal']}")
+        print(f"  {i:3d}  {meal['strMeal']}")
 
     try:
         num = int(input("\nNúmero de recepta a veure/afegir (0 = cancel·lar): "))
