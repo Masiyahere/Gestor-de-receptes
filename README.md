@@ -8,4 +8,4 @@ Proceso de archivos JSON, CSV y TXT.
 EL funcionament de les funcions dels JSON, CSV, TXT quasi està fet.
 
 08/02/2026
-Funcionament dels punts 1,2 i 3 són funcionals.
+Funcionament dels punts 1,2,3 i 4 són funcionals, també el API.
