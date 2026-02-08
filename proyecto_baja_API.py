@@ -308,11 +308,3 @@ def menu():
 
         else:
             print("Opció no vàlida.")
-
-
-if __name__ == "__main__":
-    print("Necessites 'requests' → executa:  pip install requests\n")
-    try:
-        menu()
-    except KeyboardInterrupt:
-        print("\nSortida forçada. Fins aviat!")
